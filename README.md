@@ -19,6 +19,10 @@ tinify.key = "your key" # AppKey
 
 然后带参数执行脚本即可。
 
+```
+[Usage] compress-with-tinypng.py [filepath]
+```
+
 带的第一个参数是必选的，可以是文件，也可以是文件夹。
 
 第二个参数是可选的，自定义 key，如果输入了第三个参数，则优先使用自定义 key
