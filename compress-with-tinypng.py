@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""脚本功能说明：一键批量压缩指定文件(夹)所以文件，使用 tinypng"""
+"""脚本功能说明：使用 tinypng api，一键批量压缩指定文件(夹)所有文件"""
 
 import os
 import sys
