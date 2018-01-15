@@ -27,9 +27,8 @@ def compress_by_tinypng(input_file):
         return
 
     file_name = os.path.basename(input_file)
-    output_path = os.path.join(get_file_dir(sys.argv[0]), 'tinypng')
+    output_path = os.path.join(get_file_dir(input_file), 'tinypng')
     output_file = os.path.join(output_path, file_name)
-    print(output_file)
     if not os.path.isdir(output_path):
         os.makedirs(output_path)
 
