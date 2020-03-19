@@ -20,12 +20,12 @@ tinify.key = "your key" # AppKey
 然后带参数执行脚本即可。
 
 ```
-[Usage] compress-with-tinypng.py [filepath]
+[Usage] compress-with-tinypng.py [filepath] [key]
 ```
 
-带的第一个参数是必选的，可以是文件，也可以是文件夹。
+参数一：filepath，必选，可以是文件，也可以是文件夹。
 
-第二个参数是可选的，自定义 key，如果输入了第三个参数，则优先使用自定义 key
+参数二：key，可选，自定义 key，如果输入了第三个参数，则优先使用自定义 key
 
 压缩后的文件，默认输出到当前脚本所在目录下的 tinypng 文件夹中，如果要输出到其他位置，可以自行修改脚本实现。
 
